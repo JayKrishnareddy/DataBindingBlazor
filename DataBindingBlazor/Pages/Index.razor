@@ -1,0 +1,23 @@
+﻿@page "/"
+@inherits Data.DataBind
+
+<h1>Data Binding</h1>
+<hr />
+<h3>One-way Data binding</h3>
+
+<div>
+    <b>Name :</b> @Name @*Data flow from class to view*@
+</div>
+
+<hr />
+<h3>Two-way Data binding</h3>
+
+<div>
+    <b>Name :</b> <input value="@Name" @onchange="@(c=> { Name = c.Value.ToString(); })" /> @*Event Binding**@
+</div>
+<div>
+    <b>Name :</b> <input @bind="Name" />@*Two-way data binding**@
+</div>
+
+
+
