@@ -3,6 +3,7 @@
 ### Topics to be Covered
 - One-way Data binding
 - Two-way Data binding
+- Event Binding
 
 ### Pre-requisites
 - If you are new to Blazor, I would firmly recommend you to go through the central article on Blazor which ought to be practically ready to address every one of your inquiries in regards to what Blazor is.
